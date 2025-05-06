@@ -1,4 +1,4 @@
-<?php include 'header.php'?>
+
 <!DOCTYPE html>
 <html lang="en">
   <!--<< Header Area >>-->
@@ -10,9 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="mugli" />
     <title> ZENITH-RW  - Consulting & Research</title>
-    <meta name="description" content="Horizon Hearts offers ABA therapy, speech therapy, and mental health services for autism and special needs individuals in Rwanda." />
-    <meta name="keywords" content="ABA, mental health, speech therapy, autism, special needs, therapy, Rwanda" />    
-    <!--<< Favcion >>-->
+   
     <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -58,13 +56,14 @@
     }
   </style>
   <body>
-    <a href="https://wa.me/250785628198" target="_blank" class="whatsapp-float">
+    <a href="https://wa.me/250785755226" target="_blank" class="whatsapp-float">
       <i class="fab fa-whatsapp"></i>
     </a>
 
     
-
+    <?php include 'header.php'?>
     <!-- Breadcrumnd Banner Start -->
+     
     <section class="breadcrumnd-banner cmn-bg overflow-hidden space-top">
       <div class="container mt-5">
         <div class="breadcrumnd-wrapper">
@@ -73,7 +72,7 @@
               class="bread-list d-flex align-items-center gap-lg-4 gap-md-3 gap-2"
             >
               <li>
-                <a href="index.html"> Home </a>
+                <a href="index.php"> Home </a>
               </li>
               <li>
                 <i class="fa-solid fa-chevron-right"></i>
@@ -103,7 +102,7 @@
               <h5 class="black">Location</h5>
               <a
                 target="_blank"
-                href="https://www.google.com/maps/dir/Gacuriro,+Kigali/Horizon+Hearts,+89+KG+14+Ave,+Kigali/@-1.924804,30.07586,14z/data=!4m14!4m13!1m5!1m1!1s0x19dca1350f29a821:0x656b4a6e17e2681a!2m2!1d30.0982169!2d-1.9205391!1m5!1m1!1s0x19dca5b4ce67ee8b:0x72519d59ed6c3b43!2m2!1d30.0553183!2d-1.9255194!3e0?hl=en&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D"
+                href="https://www.google.com/maps/dir/gikondo,+Kigali/,+89+KG+14+Ave,+Kigali/@-1.924804,30.07586,14z/data=!4m14!4m13!1m5!1m1!1s0x19dca1350f29a821:0x656b4a6e17e2681a!2m2!1d30.0982169!2d-1.9205391!1m5!1m1!1s0x19dca5b4ce67ee8b:0x72519d59ed6c3b43!2m2!1d30.0553183!2d-1.9255194!3e0?hl=en&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D"
                 class="pra"
               >
               KK 31 Ave Gikondo, Kigali, Rwanda
@@ -133,7 +132,7 @@
                 <i class="fa-solid fa-phone"></i>
               </div>
               <h5 class="black">Contact</h5>
-              <a href="https://wa.me/250785628198" class="pra">
+              <a href="https://wa.me/250785755226" class="pra">
               (+250) 785755226</a
               >
             </div>
@@ -142,13 +141,9 @@
       </div>
     </section>
 
-    <!-- Google Map -->
     
-
-   
-
     <!--<< Footer Section Start >>-->
-  
+    <?php include 'footer.php'?>
 
     <!--<< All JS Plugins >>-->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -174,4 +169,4 @@
     <script src="assets/js/main.js"></script>
   </body>
 </html>
-<?php include 'footer.php'?>
+

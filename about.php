@@ -1,4 +1,4 @@
-<?php include 'header.php'?>
+
 <!DOCTYPE html>
 <html lang="en">
   <!--<< Header Area >>-->
@@ -9,9 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
-    <meta name="description" content="Horizon Hearts offers ABA therapy, speech therapy, and mental health services for autism and special needs individuals in Rwanda." />
-    <meta name="keywords" content="ABA, mental health, speech therapy, autism, special needs, therapy, Rwanda" />    
-    <!--<< Favcion >>-->
+   
     <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -56,7 +54,7 @@
     }
   </style>
   <body>
-    
+  <?php include 'header.php'?>
 
     <!-- Breadcrumnd Banner Start -->
     <section class="breadcrumnd-banner cmn-bg overflow-hidden space-top">
@@ -107,7 +105,7 @@
 
 
                 </p>
-                <h5>We are here to change that.</h5>
+                
                 <p class="pra wow fadeInUp" data-wow-delay=".5s">
                   With a foundation built on
                   With a foundation built on To be a globally
@@ -131,27 +129,15 @@
           </div>
           <div class="col-lg-6">
             <div class="about-thumb-innerv2">
-              <div class="thumb-left-cont">
-                <div class="thumb-cont wow fadeInLeft" data-wow-delay="0.3s">
-                  <img
-                    src="assets/img/about/about-icon.png"
-                    alt="img"
-                    class="aicon"
-                  />
-                  <div class="contents">
-                    <h6><span class="countss">Guided by</span></h6>
-                    <span class="pra"> evidence-based approaches</span>
-                  </div>
-                </div>
-                <div class="thumb wow fadeInUp" data-wow-delay=".4s">
-                  <img src="assets/img/new/home2.webp" alt="img" />
-                </div>
+              <div class="thumb-full-cont">
+                
+               
               </div>
               <div
                 class="right-thumb d-sm-block d-none wow fadeInDown"
                 data-wow-delay=".5s"
               >
-                <img src="assets/img/new/home3.webp" alt="img" />
+                <img src="assets/img/new/abou.jpg" alt="img" />
               </div>
             </div>
           </div>
@@ -227,7 +213,7 @@
         <div class="row align-items-center g-4">
           <div class="col-lg-6 col-md-5">
             <div class="faq-thumbs">
-              <img src="assets/img/new/home5.webp" alt="img" />
+              <img src="assets/img/new/our.jpg" alt="img" />
             </div>
           </div>
           <div class="col-lg-6 col-md-7">
@@ -550,7 +536,7 @@
       </div>
     </section> -->
     <!--<< Footer Section Start >>-->
-   
+    <?php include 'footer.php'?>
 
     <!--<< All JS Plugins >>-->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -576,4 +562,4 @@
     <script src="assets/js/main.js"></script>
   </body>
 </html>
-<?php include 'footer.php'?>
+

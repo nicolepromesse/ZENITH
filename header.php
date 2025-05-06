@@ -10,7 +10,7 @@
         >
           <div class="offcanvas__logo">
             <a href="index.php">
-              <img src="assets/img/logo/logo.png" alt="logo-img" />
+              <img src="assets/img/new/bglogo.png" alt="logo-img" />
             </a>
           </div>
           <div class="offcanvas__close">
@@ -34,9 +34,9 @@
                 <i class="fal fa-envelope"></i>
               </div>
               <div class="offcanvas__contact-text">
-                <a href="mailto:info@horizonhearts.rw" target="_blank"
-                  ><span class="mailto:info@horizonhearts.rw"
-                    >info@horizonhearts.rw</span
+                <a href="mailto:info@zenith-rw.com" target="_blank"
+                  ><span class="mailto:info@zenith-rw.com"
+                    >info@zenith-rw.com</span
                   ></a
                 >
               </div>
@@ -47,8 +47,8 @@
                 <i class="far fa-phone"></i>
               </div>
               <div class="offcanvas__contact-text">
-                <a href="https://wa.me/250785628198" target="_blank">
-                  +250785628198</a
+                <a href="https://wa.me/250785755226" target="_blank">
+                  +250785755226</a
                 >
               </div>
             </li>
@@ -60,11 +60,7 @@
               href="https://www.facebook.com/profile.php?id=100080678482975"
               ><i class="fab fa-facebook-f"></i
             ></a> -->
-            <a
-              target="_blank"
-              href="https://www.instagram.com/horizonhearts_rwanda?igsh=b3BkOG14YWJoZGpt&utm_source=qr"
-              ><i class="fab fa-instagram"></i
-            ></a>
+           
           </div>
         </div>
       </div>
@@ -74,63 +70,63 @@
 <div class="offcanvas__overlay"></div>
 
 <!-- Header Top Section Start -->
-<header id="header-sticky" class="header-1 header-2">
-  <div class="container">
-    <div class="mega-menu-wrapper white-bg">
-      <div class="header-main style-2">
-        <div class="header-left">
-          <div class="logo">
-            <a href="index.html" class="header-logo">
-              <h5 style="color: #294235">ZENITH-RW LTD</h5>
-              <img src="assets/img/logo/nam.png" alt="nam-img" class="log" />
-
-              <small>
-                <b style="color: #069f64"
-                  >Excellence for every ability</b
-                ></small
-              >
-            </a>
-          </div>
-        </div>
-        <div class="header-right d-flex justify-content-end align-items-center">
-          <div class="mean__menu-wrapper">
-            <div class="main-menu">
-              <nav id="mobile-menu">
-                <ul>
-                  <li class="has-dropdown active menu-thumb">
-                    <a href="index.php">Home</a>
-                  </li>
-                  <li>
-                    <a href="about.php">
-                      About us
-                      
-                    </a>
-                   
-                  <li>
-                    <a href="service.php">
-                      Services
-                      
-                    </a>
-                    
-                  </li>
-                  <li>
-                    <a href="contact.php">Contact Us</a>
-                  </li>
-                </ul>
-              </nav>
+<header id="header-sticky" class="header-1 white-bg">
+        <div class="container">
+            <div class="mega-menu-wrapper">
+                <div class="header-main style-2">
+                    <div class="header-left">
+                        <div class="logo">
+                            <a href="index.html" class="header-logo">
+                                <img src="assets/img/new/bglogo.png" alt="bglogo-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-right d-flex justify-content-end align-items-center">
+                        <div class="mean__menu-wrapper">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li class="has-dropdown active menu-thumb">
+                                            <a href="index.php">
+                                                Home
+                                             
+                                            </a>
+                                           
+                                        <li>
+                                            <a href="about.php">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="service.php">
+                                                Services
+                                                
+                                            </a>
+                                          
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="event.php">
+                                                Event
+                                          
+                                            </a>
+                            
+                                        </li>
+                                        <li>
+                                            <a href="contact.php">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                       
+                        <div class="header-button d-sm-block d-none">
+                          
+                        </div>
+                        <div class="header__hamburger d-xl-none my-auto">
+                            <div class="sidebar__toggle">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div
-            class="menu-toggle-inner d-flex gap-sm-4 gap-3 align-items-center"
-          >
-            <div class="header__hamburger d-xl-none my-auto">
-              <div class="sidebar__toggle">
-                <i class="fas fa-bars"></i>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</header>
+    </header>

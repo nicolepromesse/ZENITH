@@ -1,4 +1,4 @@
-<?php include 'header.php'?>
+
 <!DOCTYPE html>
 <html lang="en">
   <!--<< Header Area >>-->
@@ -9,9 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ZENITH-RW  - Consulting & Research</title>
-    <meta name="description" content="Horizon Hearts offers ABA therapy, speech therapy, and mental health services for autism and special needs individuals in Rwanda." />
-    <meta name="keywords" content="ABA, mental health, speech therapy, autism, special needs, therapy, Rwanda" />    
-    <!--<< Favcion >>-->
+   
     <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -102,12 +100,8 @@
     }
   </style>
   <body>
-    <a href="https://wa.me/250785628198" target="_blank" class="whatsapp-float">
-      <i class="fab fa-whatsapp"></i>
-    </a>
-
     
-
+    <?php include 'header.php'?>
     <!-- Breadcrumnd Banner Start -->
     <section class="breadcrumnd-banner cmn-bg overflow-hidden space-top">
       <div class="container mt-5">
@@ -131,6 +125,7 @@
     <!-- Breadcrumnd Banner Start -->
 
     <!-- Service Program Section Start -->
+     
     <section
       class="program-sectionv1 overflow-hidden space-bottom position-relative section-padding"
     >
@@ -156,7 +151,7 @@
           >
             <div class="program-item gra-border">
               <div class="icons gra-border round10 d-center">
-                <img src="assets/img/aicon/car-icons1.png" alt="img" />
+                <img src="assets/img/aicon/icc.png" alt="img" />
               </div>
               <div class="content">
               <h4>
@@ -177,7 +172,7 @@ Our team of experienced consultants offers tailored solutions across several key
           >
             <div class="program-item gra-border">
               <div class="icons gra-border round10 d-center">
-                <img src="assets/img/aicon/car-icons2.png" alt="img" />
+                <img src="assets/img/aicon/plan.png" alt="img" />
               </div>
               <div class="content">
               <h4>
@@ -203,7 +198,7 @@ Our team of experienced consultants offers tailored solutions across several key
           >
             <div class="program-item gra-border">
               <div class="icons gra-border round10 d-center">
-                <img src="assets/img/aicon/car-icons3.png" alt="img" />
+                <img src="assets/img/aicon/research.png" alt="img" />
               </div>
               <div class="content">
               <h4>
@@ -226,7 +221,7 @@ Our team of experienced consultants offers tailored solutions across several key
           >
             <div class="program-item gra-border">
               <div class="icons gra-border round10 d-center">
-                <img src="assets/img/aicon/car-icons4.png" alt="img" />
+                <img src="assets/img/aicon/energy.png" alt="img" />
               </div>
               <div class="content">
               <h4>
@@ -248,7 +243,7 @@ Our team of experienced consultants offers tailored solutions across several key
           <div class="" data-wow-delay=".6s">
             <div class="program-item gra-border">
               <div class="icons gra-border round10 d-center">
-                <img src="assets/img/aicon/car-icons4.png" alt="img" />
+                <img src="assets/img/aicon/cust.png" alt="img" />
               </div>
               <div class="content">
               <h4>
@@ -278,7 +273,7 @@ Our team of experienced consultants offers tailored solutions across several key
         <div class="row align-items-center g-4">
           <div class="col-lg-6 col-md-5">
             <div class="faq-thumbs">
-              <img src="assets/img/new/home4.webp" alt="img" />
+              <img src="assets/img/new/favo.jpg" alt="img" />
             </div>
           </div>
           <div class="col-lg-6 col-md-7">
@@ -350,7 +345,7 @@ Our team of experienced consultants offers tailored solutions across several key
                    to explore new areas of expertise, continually adapting to the
                    evolving needs of our clients and the marketplace.
                   </p>
-                  <h4>Together, we build limitless possibilities.</h4>
+                 
                 </div>
               </div>
             </div>
@@ -365,21 +360,18 @@ Our team of experienced consultants offers tailored solutions across several key
       <div class="row align-items-center g-4">
         <div class="col-lg-6 col-md-5">
           <div class="faq-thumbs">
-            <img src="assets/img/new/home5.webp" alt="img" />
+            <img src="assets/img/new/valuee.webp" alt="img" />
           </div>
         </div>
         <div class="col-lg-6 col-md-7">
           <div class="procedure-container">
             <div class="section-title mb-40">
               <span class="sub-title wow fadeInUp p5-clr"> Our Core Values</span>
-              <p>
-              At ZENITH-RW, we are guided by a set of core values that shape our approach to consulting and drive the success of our mission. These principles represent who we are, how we operate, and what we 
-              stand for as we partner with our clients to create lasting impact.
-              </p>
+              
             </div>
             <div class="step">
               <div class="icon">
-                <img src="assets/img/new/icon1.png" alt="img" />
+                <img src="assets/img/new/inter.png" alt="img" />
               </div>
               <div class="step-content">
                 <h3>Integrity</h3>
@@ -392,7 +384,7 @@ Our team of experienced consultants offers tailored solutions across several key
 
             <div class="step">
               <div class="icon">
-                <img src="assets/img/new/icon2.png" alt="img" />
+                <img src="assets/img/new/mana.png" alt="img" />
               </div>
               <div class="step-content">
                 <h3>Excellence</h3>
@@ -405,7 +397,7 @@ Our team of experienced consultants offers tailored solutions across several key
 
             <div class="step">
               <div class="icon">
-                <img src="assets/img/new/icon3.png" alt="img" />
+                <img src="assets/img/new/colla.png" alt="img" />
               </div>
               <div class="step-content">
                 <h3>Collaboration</h3>
@@ -418,7 +410,7 @@ Our team of experienced consultants offers tailored solutions across several key
 
             <div class="step">
               <div class="icon">
-                <img src="assets/img/new/icon4.png" alt="img" />
+                <img src="assets/img/new/crea.png" alt="img" />
               </div>
               <div class="step-content">
                 <h3>Innovation</h3>
@@ -431,7 +423,7 @@ Our team of experienced consultants offers tailored solutions across several key
             </div>
             <div class="step">
               <div class="icon">
-                <img src="assets/img/new/icon1.png" alt="img" />
+                <img src="assets/img/new/save.png" alt="img" />
               </div>
               <div class="step-content">
                 <h3>Sustainability</h3>
@@ -473,3 +465,5 @@ Our team of experienced consultants offers tailored solutions across several key
   </body>
 </html>
 <?php include 'footer.php'?>
+
+
