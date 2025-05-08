@@ -86,13 +86,13 @@
                             <div class="main-menu">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li class="has-dropdown active menu-thumb">
+                                        <li class="has-dropdown ">
                                             <a href="index.php">
                                                 Home
                                              
                                             </a>
                                            
-                                        <li>
+                                        <li class="">
                                             <a href="about.php">About Us</a>
                                         </li>
                                         <li>

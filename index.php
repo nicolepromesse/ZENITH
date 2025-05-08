@@ -252,16 +252,27 @@
               <img src="assets/img/aicon/icc.png" alt="img" />
             </div>
             <div class="content">
-              <h4>
-                <a href="#">Management Consultancy</a>
-              </h4>
-              <p>
-                ZENITH-RW LTD provides comprehensive management consultancy services aimed at enhancing organizational performance and achieving strategic goals.
-
-                Our team of experienced consultants offers tailored solutions across several key areas
-              </p>
-
-            </div>
+                <h4>
+                  <a href="#">Management Consultancy
+                  </a>
+                </h4>
+                <p>
+                ZENITH-RW LTD provides comprehensive management 
+                consultancy services aimed at enhancing organizational 
+                performance and achieving strategic goals.
+                 Our team of experienced consultants offers 
+                 tailored solutions across several key areas,
+                </p>
+                <a
+                  href="service-details.php#1"
+                  class="readmore d-flex align-items-center gap-2"
+                >
+                  Read More
+                  <span class="arrows mt-1">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
           </div>
         </div>
         <div
@@ -272,65 +283,26 @@
               <img src="assets/img/aicon/plan.png" alt="img" />
             </div>
             <div class="content">
-              <h4>
-                <a href="#">
-                  Strategic Planning</a>
-              </h4>
-              <p>
-                We assist organizations in defining their vision, mission,
-                and long-term objectives,
-                developing actionable plans that align with their core values.<b> Operational Improvement:</b>
-                Our consultants analyze existing processes, identifying opportunities
-                for optimization that enhance productivity and reduce operational costs.
-
-              </p>
-
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
-          data-wow-delay=".5s">
-          <div class="program-item gra-border">
-            <div class="icons gra-border round10 d-center">
-              <img src="assets/img/aicon/research.png" alt="img" />
-            </div>
-            <div class="content">
-              <h4>
-                <a href="#">Research & Development</a>
-              </h4>
-              <p>
-                At ZENITH-RW LTD, we engage in cutting-edge research and experimental development
+                <h4>
+                  <a href="#">Research & Development</a>
+                </h4>
+                <p>
+                At ZENITH-RW LTD, we engage in cutting-edge research and experimental development 
                 within the fields of natural sciences and engineering.
-                Collaborating with academic institutions, government agencies, and
-                industry partners, we aim to advance knowledge and foster innovation.
-              </p>
-
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
-          data-wow-delay=".6s">
-          <div class="program-item gra-border">
-            <div class="icons gra-border round10 d-center">
-              <img src="assets/img/aicon/energy.png" alt="img" />
-            </div>
-            <div class="content">
-              <h4>
-                <a href="#">Sustainable Technologies</a>
-              </h4>
-              <p>
-                We develop solutions that minimize environmental impact,
-                such as renewable energy systems and efficient resource management techniques.
-                <b>Engineering Innovations </b>Our applied research efforts design and
-                optimize new materials, processes, and systems to enhance performance and reliability.
-
-              </p>
-
-              </a>
-            </div>
+                Collaborating with academic institutions, 
+                 government agencies, and industry partners, 
+                   we aim to advance knowledge and foster innovation.
+                </p>
+                <a
+                  href="service-details.php#4"
+                  class="readmore d-flex align-items-center gap-2"
+                >
+                  Read More
+                  <span class="arrows mt-1">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
           </div>
         </div>
 
@@ -340,21 +312,24 @@
               <img src="assets/img/aicon/cust.png" alt="img" />
             </div>
             <div class="content">
-              <h4>
-                <a href="#">Other Professional, Scientific, and Technical Activities</a>
-              </h4>
-              <p>
-                In addition to our core focus areas, ZENITH-RW LTD offers a range
-                of professional, scientific, and technical activities tailored to diverse client needs.
-                <b>Technical Consulting</b>We provide expert advice on specific technical challenges,
-                leveraging our industry knowledge and research capabilities.
-                <b>Training and Capacity Building</b>We design and deliver training programs that enhance skills and
-                competencies within organizations.<b>Project Management Services</b>Our team oversees complex projects from inception to completion,
-                ensuring they are delivered on time, within scope, and on budget.
-              </p>
-
-              </a>
-            </div>
+                <h4>
+                  <a href="#">Other Professional, Scientific, and Technical Activities</a>
+                </h4>
+                <p>
+                In addition to our core focus areas, ZENITH-RW LTD offers 
+                a range of professional, scientific, and technical activities 
+                tailored to diverse client needs.
+                </p>
+                <a
+                  href="service-details.php#5"
+                  class="readmore d-flex align-items-center gap-2"
+                >
+                  Read More
+                  <span class="arrows mt-1">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
           </div>
         </div>
       </div>

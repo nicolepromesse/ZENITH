@@ -127,8 +127,7 @@
     <!-- Service Program Section Start -->
      
     <section
-      class="program-sectionv1 overflow-hidden space-bottom position-relative section-padding"
-    >
+      class="program-sectionv1 overflow-hidden space-bottom position-relative section-padding" >
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
@@ -154,88 +153,56 @@
                 <img src="assets/img/aicon/icc.png" alt="img" />
               </div>
               <div class="content">
-              <h4>
-                  <a href="#">Management Consultancy</a>
+                <h4>
+                  <a href="#">Management Consultancy
+                  </a>
                 </h4>
                 <p>
-                ZENITH-RW LTD provides comprehensive management consultancy services aimed at enhancing organizational performance and achieving strategic goals.
-
-Our team of experienced consultants offers tailored solutions across several key areas
+                ZENITH-RW LTD provides comprehensive management 
+                consultancy services aimed at enhancing organizational 
+                performance and achieving strategic goals.
+                 Our team of experienced consultants offers 
+                 tailored solutions across several key areas,
                 </p>
-              
+                <a
+                  href="service-details.php#1"
+                  class="readmore d-flex align-items-center gap-2"
+                >
+                  Read More
+                  <span class="arrows mt-1">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
           <div
             class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
-            data-wow-delay=".4s"
-          >
+            data-wow-delay=".6s"  >
             <div class="program-item gra-border">
               <div class="icons gra-border round10 d-center">
-                <img src="assets/img/aicon/plan.png" alt="img" />
+                <img src="assets/img/aicon/car-icons4.png" alt="img" />
               </div>
               <div class="content">
-              <h4>
-                  <a href="#">
-                  Strategic Planning</a
-                  >
-                </h4>
-                <p>
-                We assist organizations in defining their vision, mission, 
-                and long-term objectives, 
-                developing actionable plans that align with their core values.<b> Operational Improvement:</b>
-                Our consultants analyze existing processes, identifying opportunities 
-                for optimization that enhance productivity and reduce operational costs.
-
-                </p>
-               
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
-            data-wow-delay=".5s"
-          >
-            <div class="program-item gra-border">
-              <div class="icons gra-border round10 d-center">
-                <img src="assets/img/aicon/research.png" alt="img" />
-              </div>
-              <div class="content">
-              <h4>
+                <h4>
                   <a href="#">Research & Development</a>
                 </h4>
                 <p>
-                At ZENITH-RW LTD, we engage in cutting-edge research and experimental development
-                 within the fields of natural sciences and engineering.
-                  Collaborating with academic institutions, government agencies, and 
-                 industry partners, we aim to advance knowledge and foster innovation.
+                At ZENITH-RW LTD, we engage in cutting-edge research and experimental development 
+                within the fields of natural sciences and engineering.
+                Collaborating with academic institutions, 
+                 government agencies, and industry partners, 
+                   we aim to advance knowledge and foster innovation.
                 </p>
-                
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
-            data-wow-delay=".6s"
-          >
-            <div class="program-item gra-border">
-              <div class="icons gra-border round10 d-center">
-                <img src="assets/img/aicon/energy.png" alt="img" />
-              </div>
-              <div class="content">
-              <h4>
-                  <a href="#">Sustainable Technologies</a>
-                </h4>
-                <p>
-                We develop solutions that minimize environmental impact, 
-                such as renewable energy systems and efficient resource management techniques.
-                <b>Engineering Innovations </b>Our applied research efforts design and 
-                optimize new materials, processes, and systems to enhance performance and reliability.
-
-                </p>
-                
-               
+                <a
+                  href="service-details.php#4"
+                  class="readmore d-flex align-items-center gap-2"
+                >
+                  Read More
+                  <span class="arrows mt-1">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -243,120 +210,39 @@ Our team of experienced consultants offers tailored solutions across several key
           <div class="" data-wow-delay=".6s">
             <div class="program-item gra-border">
               <div class="icons gra-border round10 d-center">
-                <img src="assets/img/aicon/cust.png" alt="img" />
+                <img src="assets/img/aicon/car-icons4.png" alt="img" />
               </div>
               <div class="content">
-              <h4>
+                <h4>
                   <a href="#">Other Professional, Scientific, and Technical Activities</a>
                 </h4>
                 <p>
-                In addition to our core focus areas, ZENITH-RW LTD offers a range 
-                of professional, scientific, and technical activities tailored to diverse client needs.
-                <b>Technical Consulting</b>We provide expert advice on specific technical challenges,
-                 leveraging our industry knowledge and research capabilities.
-                 <b>Training and Capacity Building</b>We design and deliver training programs that enhance skills and 
-                 competencies within organizations.<b>Project Management Services</b>Our team oversees complex projects from inception to completion, 
-                 ensuring they are delivered on time, within scope, and on budget.
+                In addition to our core focus areas, ZENITH-RW LTD offers 
+                a range of professional, scientific, and technical activities 
+                tailored to diverse client needs.
                 </p>
+                <a
+                  href="service-details.php#5"
+                  class="readmore d-flex align-items-center gap-2"
+                >
+                  Read More
+                  <span class="arrows mt-1">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </a>
               </div>
+            </div>
+          </div>
+              
             </div>
           </div>
         </div>
       </div>
-    </section>
+     </section>
+    
 
-    <section
-      class="faq-sectionv mt-60 overflow-hidden space-bottom"
-      id="approach"
-    >
-      <div class="container">
-        <div class="row align-items-center g-4">
-          <div class="col-lg-6 col-md-5">
-            <div class="faq-thumbs">
-              <img src="assets/img/new/favo.jpg" alt="img" />
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-7">
-            <div class="faq-content">
-              <div class="section-title mb-40">
-                <span class="sub-title wow fadeInUp p5-clr">
-                Management Consultancy
-                </span>
-              </div>
-              <div class="tab-faq faq">
-                <div class="accordion-section d-grid gap-xxl-4 gap-lg-3 gap-2">
-                  <div class="accordion-single">
-                    <h5 class="header-area">
-                      <button
-                        class="accordion-btn d-flex align-items-center d-flex position-relative w-100"
-                        type="button"
-                      >
-                      Strategic Planning
-                      </button>
-                    </h5>
-                    <div class="content-area">
-                      <div class="content-body">
-                        <p>
-                        We assist organizations in defining their vision, mission, and long-term objectives, 
-                        developing actionable plans that align with their core values.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-single">
-                    <h5 class="header-area">
-                      <button
-                        class="accordion-btn d-flex align-items-center d-flex position-relative w-100"
-                        type="button"
-                      >
-                      Operational Improvement
-                      </button>
-                    </h5>
-                    <div class="content-area">
-                      <div class="content-body">
-                        <p>
-                        Our consultants analyze existing processes, identifying opportunities for optimization that 
-                        enhance productivity and reduce operational costs.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-single">
-                    <h5 class="header-area">
-                      <button
-                        class="accordion-btn d-flex align-items-center d-flex position-relative w-100"
-                        type="button"
-                      >
-                      Change Management:
-                      </button>
-                    </h5>
-                    <div class="content-area">
-                      <div class="content-body">
-                        <p>
-                        We guide organizations through transitions, 
-                        ensuring that changes are implemented 
-                        smoothly and embraced by all stakeholders.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                  Our commitment to excellence and innovation drives us
-                   to explore new areas of expertise, continually adapting to the
-                   evolving needs of our clients and the marketplace.
-                  </p>
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section
-      class="faq-sectionv mt-60 overflow-hidden space-bottom"
-      id="procedure"
-    >
+  
+   <!--<section class="faq-sectionv mt-60 overflow-hidden space-bottom" id="procedure" >
       <div class="row align-items-center g-4">
         <div class="col-lg-6 col-md-5">
           <div class="faq-thumbs">
@@ -407,6 +293,37 @@ Our team of experienced consultants offers tailored solutions across several key
                 </p>
               </div>
             </div>
+ <div
+            class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
+            data-wow-delay=".5s"
+          >
+            <div class="program-item gra-border">
+              <div class="icons gra-border round10 d-center">
+                <img src="assets/img/aicon/car-icons3.png" alt="img" />
+              </div>
+              <div class="content">
+                <h4>
+                  <a href="#">Speech and Language Intervention</a>
+                </h4>
+                <p>
+                  Communication is the key to connection. Our speech and
+                  language intervention supports children in developing
+                  essential communication skills that enhance their ability to
+                  express themselves, interact with others, and navigate daily
+                  life.
+                </p>
+                <a
+                  href="service-details.html#3"
+                  class="readmore d-flex align-items-center gap-2"
+                >
+                  Read More
+                  <span class="arrows mt-1">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
 
             <div class="step">
               <div class="icon">
@@ -438,7 +355,7 @@ Our team of experienced consultants offers tailored solutions across several key
       </div>
     </section>
     <!--<< Footer Section Start >>-->
-    
+    <?php include 'footer.php'?>
 
     <!--<< All JS Plugins >>-->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -464,6 +381,6 @@ Our team of experienced consultants offers tailored solutions across several key
     <script src="assets/js/main.js"></script>
   </body>
 </html>
-<?php include 'footer.php'?>
+
 
 

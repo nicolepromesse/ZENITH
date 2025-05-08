@@ -79,9 +79,7 @@
     <!-- Breadcrumnd Banner Start -->
 
     <!-- Aboutv1 Section Start -->
-    <section
-      class="about-sectionv02 space-top position-relative overflow-hidden"
-    >
+    <section class="about-sectionv02 space-top position-relative overflow-hidden">
       <div class="container">
         <div class="row g-4">
           <div class="col-lg-6 col-md-9">
@@ -150,8 +148,7 @@
       style="
         background: linear-gradient(135deg, #ffffff, #99cd83, #ace3d5, #9ed1da);
       "
-      id="mission"
-    >
+      id="mission" >
       <div class="container">
         <div class="">
           <div class="">
@@ -189,8 +186,7 @@
       style="
         background: linear-gradient(135deg, #ffffff, #99cd83, #51c178, #0097b2);
       "
-      id="vision"
-    >
+      id="vision" >
       <div class="container">
         <div class="">
           <div class="">

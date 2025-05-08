@@ -25,17 +25,17 @@
                             </div>
                             <ul class="list-area">
                                 <li>
-                                    <a href="about.html">
+                                    <a href="about.php">
                                         About Us
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="service.html">
+                                    <a href="service.php">
                                     Our Services
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">
+                                    <a href="contact.php">
                                         Contact Us
                                     </a>
                                 </li>
