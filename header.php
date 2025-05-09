@@ -70,63 +70,57 @@
 <div class="offcanvas__overlay"></div>
 
 <!-- Header Top Section Start -->
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
+
 <header id="header-sticky" class="header-1 white-bg">
-        <div class="container">
-            <div class="mega-menu-wrapper">
-                <div class="header-main style-2">
-                    <div class="header-left">
-                        <div class="logo">
-                            <a href="index.html" class="header-logo">
-                                <img src="assets/img/new/bglogo.png" alt="bglogo-img">
-                            </a>
+    <div class="container">
+        <div class="mega-menu-wrapper">
+            <div class="header-main style-2">
+                <div class="header-left">
+                    <div class="logo">
+                        <a href="index.php" class="header-logo">
+                            <img src="assets/img/new/bglogo.png" alt="bglogo-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="header-right d-flex justify-content-end align-items-center">
+                    <div class="mean__menu-wrapper">
+                        <div class="main-menu">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li class="has-dropdown <?= ($currentPage == 'index.php') ? 'active' : '' ?>">
+                                        <a href="index.php">Home</a>
+                                    </li>
+                                    <li class="<?= ($currentPage == 'about.php') ? 'active' : '' ?>">
+                                        <a href="about.php">About Us</a>
+                                    </li>
+                                    <li class="<?= ($currentPage == 'service.php') ? 'active' : '' ?>">
+                                        <a href="service.php">Services</a>
+                                    </li>
+                                    <li class="has-dropdown <?= ($currentPage == 'event.php') ? 'active' : '' ?>">
+                                        <a href="event.php">Events</a>
+                                    </li>
+                                    <li class="<?= ($currentPage == 'contact.php') ? 'active' : '' ?>">
+                                        <a href="contact.php">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
-                    <div class="header-right d-flex justify-content-end align-items-center">
-                        <div class="mean__menu-wrapper">
-                            <div class="main-menu">
-                                <nav id="mobile-menu">
-                                    <ul>
-                                        <li class="has-dropdown ">
-                                            <a href="index.php">
-                                                Home
-                                             
-                                            </a>
-                                           
-                                        <li class="">
-                                            <a href="about.php">About Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="service.php">
-                                                Services
-                                                
-                                            </a>
-                                          
-                                        </li>
-                                        <li class="has-dropdown">
-                                            <a href="event.php">
-                                                Event
-                                          
-                                            </a>
-                            
-                                        </li>
-                                        <li>
-                                            <a href="contact.php">Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                       
-                        <div class="header-button d-sm-block d-none">
-                          
-                        </div>
-                        <div class="header__hamburger d-xl-none my-auto">
-                            <div class="sidebar__toggle">
-                                <i class="fas fa-bars"></i>
-                            </div>
+
+                    <div class="header-button d-sm-block d-none">
+                        <!-- Optional button or CTA -->
+                    </div>
+
+                    <div class="header__hamburger d-xl-none my-auto">
+                        <div class="sidebar__toggle">
+                            <i class="fas fa-bars"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</header>

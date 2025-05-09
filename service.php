@@ -31,27 +31,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <style>
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25d366;
-      color: white;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 24px;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-      text-decoration: none;
-      z-index: 1000;
-    }
-
-    .whatsapp-float:hover {
-      background-color: #1ebe5d;
-    }
+   
     .procedure-container {
       max-width: 600px;
       margin: auto;
@@ -103,8 +83,8 @@
     
     <?php include 'header.php'?>
     <!-- Breadcrumnd Banner Start -->
-    <section class="breadcrumnd-banner cmn-bg overflow-hidden space-top">
-      <div class="container mt-5">
+    <section class="breadcrumnd-banner cmn-bg overflow-hidden">
+      <div class="container">
         <div class="breadcrumnd-wrapper">
           <div class="breadcrumnd-content">
             <ul
@@ -134,11 +114,10 @@
             <div class="section-title text-center mb-60">
               <span class="sub-title wow fadeInUp p4-clr">Our Services </span>
               <p>
-                At <b>ZENITH-RW LTD</b>, we provide
-                <b>we provides comprehensive</b>  management consultancy services aimed at enhancing 
-                organizational performance and achieving strategic goals
-                Our team of experienced consultants offers tailored solutions
-                 across several key areas
+                At <b>ZENITH-RW LTD</b>,  we offer a range of professional services designed to meet the unique needs of our clients. Whether you're
+              looking for expert guidance, hands-on support, or customized solutions, our team is committed to
+              delivering high-quality, reliable, and results-driven service. Explore what we offer and discover how we
+              can help you achieve your goals with confidence.
               </p>
             </div>
           </div>
@@ -195,7 +174,7 @@
                    we aim to advance knowledge and foster innovation.
                 </p>
                 <a
-                  href="service-details.php#4"
+                  href="service-details.php#2"
                   class="readmore d-flex align-items-center gap-2"
                 >
                   Read More
@@ -222,7 +201,7 @@
                 tailored to diverse client needs.
                 </p>
                 <a
-                  href="service-details.php#5"
+                  href="service-details.php#3"
                   class="readmore d-flex align-items-center gap-2"
                 >
                   Read More
@@ -242,118 +221,7 @@
     
 
   
-   <!--<section class="faq-sectionv mt-60 overflow-hidden space-bottom" id="procedure" >
-      <div class="row align-items-center g-4">
-        <div class="col-lg-6 col-md-5">
-          <div class="faq-thumbs">
-            <img src="assets/img/new/valuee.webp" alt="img" />
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-7">
-          <div class="procedure-container">
-            <div class="section-title mb-40">
-              <span class="sub-title wow fadeInUp p5-clr"> Our Core Values</span>
-              
-            </div>
-            <div class="step">
-              <div class="icon">
-                <img src="assets/img/new/inter.png" alt="img" />
-              </div>
-              <div class="step-content">
-                <h3>Integrity</h3>
-                <p>
-                We uphold the highest standards of honesty, transparency, and ethical conduct in every aspect of our work. We believe in doing the right thing, even when no one is watching, 
-                and building trust through openness, consistency, and accountability.
-                </p>
-              </div>
-            </div>
-
-            <div class="step">
-              <div class="icon">
-                <img src="assets/img/new/mana.png" alt="img" />
-              </div>
-              <div class="step-content">
-                <h3>Excellence</h3>
-                <p>
-                We are committed to delivering exceptional quality in all our services. We aim to exceed expectations by applying rigorous analysis, innovative thinking, 
-                and a relentless pursuit of excellence in every project we undertake.
-                </p>
-              </div>
-            </div>
-
-            <div class="step">
-              <div class="icon">
-                <img src="assets/img/new/colla.png" alt="img" />
-              </div>
-              <div class="step-content">
-                <h3>Collaboration</h3>
-                <p>
-                We believe in the power of teamwork, both within our organization and with our clients. By working together, sharing diverse perspectives, and fostering open communication, 
-                we create solutions that are holistic, inclusive, and better informe
-                </p>
-              </div>
-            </div>
- <div
-            class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
-            data-wow-delay=".5s"
-          >
-            <div class="program-item gra-border">
-              <div class="icons gra-border round10 d-center">
-                <img src="assets/img/aicon/car-icons3.png" alt="img" />
-              </div>
-              <div class="content">
-                <h4>
-                  <a href="#">Speech and Language Intervention</a>
-                </h4>
-                <p>
-                  Communication is the key to connection. Our speech and
-                  language intervention supports children in developing
-                  essential communication skills that enhance their ability to
-                  express themselves, interact with others, and navigate daily
-                  life.
-                </p>
-                <a
-                  href="service-details.html#3"
-                  class="readmore d-flex align-items-center gap-2"
-                >
-                  Read More
-                  <span class="arrows mt-1">
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-            <div class="step">
-              <div class="icon">
-                <img src="assets/img/new/crea.png" alt="img" />
-              </div>
-              <div class="step-content">
-                <h3>Innovation</h3>
-                <p>
-                We are passionate about driving change and embracing new ideas. We seek out novel approaches, cutting-edge technologies, and emerging trends to develop forward-thinking 
-                solutions that meet the ever-evolving needs of our clients.
-                </p>
-               
-              </div>
-            </div>
-            <div class="step">
-              <div class="icon">
-                <img src="assets/img/new/save.png" alt="img" />
-              </div>
-              <div class="step-content">
-                <h3>Sustainability</h3>
-                <p>
-                We are dedicated to promoting sustainable practices that benefit both people and the planet. Our work is guided by the understanding that long-term success depends on responsible, 
-                socially conscious, and environmentally sound decision-making.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  
     <!--<< Footer Section Start >>-->
     <?php include 'footer.php'?>
 

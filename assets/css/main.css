@@ -16,7 +16,7 @@ Version: 1.0.0
   --p3-clr: #f15964;
   --p4-clr: #73BE48;
   --p5-clr: #1CBBB4;
-  --cmnbg: #b2dfbf;
+  --cmnbg: #5a7348;
   --theme: #069f64;
   --theme2: #70A6B1;
   --header: #385469;
@@ -2931,7 +2931,7 @@ iframe {
 }
 
 .offcanvas__info {
-  background: var(--cmnbg) none repeat scroll 0 0;
+  background: #e7e7d3 none repeat scroll 0 0;
   border-left: 2px solid var(--p2-clr);
   position: fixed;
   right: 0;
@@ -5500,4 +5500,70 @@ nav ul li.active a {
   border: none;
   margin: auto;
   opacity: 0.8;
+}
+.breadcrumnd-banner li {
+  color: #e7e7d3 !important;
+}
+.breadcrumnd-banner li a {
+  color: #e7e7d3 !important;
+}
+.mission-bg{
+  background:#e7e7d3;
+}
+.procedure-container {
+  max-width: 600px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.step:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: 25px;
+  /* Align with the center of the icon */
+  top: 55px;
+  /* Start slightly below the icon */
+  height: calc(100% + 20px);
+  /* Extend to connect the next step */
+  width: 2px;
+  background: #62af41;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.step-content h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.step-content p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+.footer-bg{
+  background-color: #e7e7d3;
 }

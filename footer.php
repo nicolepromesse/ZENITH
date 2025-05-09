@@ -1,4 +1,4 @@
-<footer class="footer-section overflow-hidden position-relative footer-style1 white-bg">
+<footer class="footer-section overflow-hidden position-relative footer-style1 footer-bg">
         <div class="footer-widgets-wrapper">
             <div class="container">
                 <div class="row g-md-4 g-4 justify-content-between">
@@ -58,7 +58,7 @@
                                 </li>
                                 <li>
                                     <i class="far fa-envelope"></i>
-                                    <a href="infozenith.rw@gmail.com" class="link">infozenith.rw@gmail.com</a>
+                                    <a href="mailTo:info@zenith-rw.com" class="link">info@zenith-rw.com</a>
                                 </li>
                                 <li>
                 <i class="fa-solid fa-phone"></i>

@@ -32,40 +32,16 @@
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
 
-  <style>
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25d366;
-      color: white;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 24px;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-      text-decoration: none;
-      z-index: 1000;
-    }
-
-    .whatsapp-float:hover {
-      background-color: #1ebe5d;
-    }
-  </style>
+ 
   <body>
-    <a href="https://wa.me/250785755226" target="_blank" class="whatsapp-float">
-      <i class="fab fa-whatsapp"></i>
-    </a>
+    
 
     
     <?php include 'header.php'?>
     <!-- Breadcrumnd Banner Start -->
      
-    <section class="breadcrumnd-banner cmn-bg overflow-hidden space-top">
-      <div class="container mt-5">
+    <section class="breadcrumnd-banner cmn-bg overflow-hidden">
+      <div class="container ">
         <div class="breadcrumnd-wrapper">
           <div class="breadcrumnd-content">
             <ul
@@ -77,7 +53,7 @@
               <li>
                 <i class="fa-solid fa-chevron-right"></i>
               </li>
-              <li>Event</li>
+              <li>Events</li>
             </ul>
           </div>
         </div>
@@ -86,22 +62,18 @@
     <!-- Breadcrumnd Banner Start -->
 
     <!-- Contact Info Start -->
-    <section class="professional-sectionv1 overflow-hidden mt-2 space-bottom position-relative">
+    <section class="professional-sectionv1 overflow-hidden mt-2 space-top position-relative">
         <div class="container">
             <div class="row justify-content-center mb-60">
                 <div class="col-lg-6">
                     <div class="section-title text-center">
-                        <span class="sub-title wow fadeInUp p5-clr">
-                            OUR EVENT
-                        </span>
-                        <h3 class="m-title wow fadeInUp black" data-wow-delay=".3s">
-                        Explore our upcoming events 
-                        designed to foster insight, innovation, and collaboration.
+                        <h3 class="m-title wow fadeInUp " data-wow-delay=".3s" >
+                        No upcoming events at the moment. Please check back soon!
                         </h3>
                     </div>
                 </div>
             </div>
-            <div class="row g-lg-4 g-3 justify-content-center">
+            <!-- <div class="row g-lg-4 g-3 justify-content-center">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="professional-item">
                         <div class="thumb mb-24">
@@ -167,7 +139,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 

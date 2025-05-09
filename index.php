@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <!--<< Header Area >>-->
@@ -11,7 +10,7 @@
   <title>
     ZENITH-RW - Consulting & Research
   </title>
- 
+
   <!--<< Favcion >>-->
   <link rel="shortcut icon" href="assets/img/favicon.ico" />
   <!--<< Bootstrap min.css >>-->
@@ -33,11 +32,14 @@
   <!--<< Main.css >>-->
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
+<style>
+ 
+</style>
 
 <body>
 
 
-<?php include 'header.php'; ?>
+  <?php include 'header.php'; ?>
 
 
   <!-- Hero Section Start -->
@@ -49,9 +51,7 @@
             <h2 class="mb-lg-5 mb-4 wow fadeInUp" data-wow-delay=".3s">
               Welcome to ZENITH-RW LTD
             </h2>
-            <p
-              class="mb-40 wow fadeInUp"
-              data-wow-delay=".5s"
+            <p class="mb-40 wow fadeInUp" data-wow-delay=".5s"
               style="font-weight: bolder; color: aliceblue; margin-right:25px;">
               Your partner in management consulting, R&D, and more!
               Our mission is to leverage our expertise to foster innovation
@@ -66,32 +66,28 @@
       </div>
     </div>
     <!-- Element -->
-    <img
-      src="assets/img/new/home1.png"
-      alt="img"
-      class="banner-shape wow fadeInLeft"
-      data-wow-delay=".3s"
+    <img src="assets/img/new/home1.png" alt="img" class="banner-shape wow fadeInLeft" data-wow-delay=".3s"
       style="border-top-left-radius: 250px; opacity: 0.6;" />
 
 
   </section>
 
   <!-- Aboutv1 Section Start -->
-  <section
-    class="about-sectionv02 space-top position-relative overflow-hidden">
+  <section class="about-sectionv02 space-top position-relative overflow-hidden">
     <div class="container">
       <div class="row g-4">
-        <div class="col-lg-6 col-md-9">
+        <div class="col-lg-8 col-md-9">
           <div class="about-contentv02">
             <div class="section-title">
               <span class="sub-title wow fadeInUp p2-clr"> About Us </span>
-              <h4
-                class="m-title mb-3 wow fadeInUp black"
-                data-wow-delay=".3s">
+              <h4 class="m-title mb-3 wow fadeInUp black" data-wow-delay=".3s">
                 Your partner in management consulting, R&D, and more!
               </h4>
               <p class="mb-3 pra wow fadeInUp" data-wow-delay=".4s">
-                Since December 2015, ZENITH-RW LTD is dedicated to delivering high-quality services in management consultancy, research and development, and various professional and technical activities. Our mission is to leverage our expertise to foster innovation and support our clients in navigating complex challenges in an ever-evolving landscape.
+                Since December 2015, ZENITH-RW LTD is dedicated to delivering high-quality services in management
+                consultancy, research and development, and various professional and technical activities. Our mission is
+                to leverage our expertise to foster innovation and support our clients in navigating complex challenges
+                in an ever-evolving landscape.
 
               </p>
 
@@ -104,9 +100,7 @@
                 and solutions that make a lasting impact on business, society, and the environment.
 
               </p>
-              <div
-                class="d-flex align-items-center gap-xl-3 gap-2 mt-40 wow fadeInUp"
-                data-wow-delay=".6s">
+              <div class="d-flex align-items-center gap-xl-3 gap-2 mt-40 wow fadeInUp" data-wow-delay=".6s">
                 <a href="about.php" class="theme-btn round100 p2-bg">
                   <span class="white fw-medium"> Read More </span>
                 </a>
@@ -117,12 +111,10 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <div class="about-thumb-innerv2">
 
-            <div
-              class="right-thumb d-sm-block d-none wow fadeInDown"
-              data-wow-delay=".5s">
+            <div class="right-thumb d-sm-block d-none wow fadeInDown" data-wow-delay=".5s">
               <img src="assets/img/new/house.webp" alt="img" />
             </div>
           </div>
@@ -131,178 +123,136 @@
     </div>
   </section>
   <!-- Faq Section Start -->
-  <section class="faq-sectionv mt-60 overflow-hidden space-bottom">
-    <div class="container">
-      <div class="row align-items-center g-4">
-        <div class="col-lg-6 col-md-5">
-          <div class="faq-thumbs">
-            <img src="assets/img/new/core.jpg" alt="img" />
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-7">
-          <div class="faq-content">
-            <div class="section-title mb-40">
-              <span class="sub-title wow fadeInUp p5-clr">
-                Our Core Values
-              </span>
-            </div>
-            <div class="tab-faq faq">
-              <div class="accordion-section d-grid gap-xxl-4 gap-lg-3 gap-2">
-                <div class="accordion-single">
-                  <h5 class="header-area">
-                    <button
-                      class="accordion-btn d-flex align-items-center d-flex position-relative w-100"
-                      type="button">
-                      Integrity
-
-                    </button>
-                  </h5>
-                  <div class="content-area">
-                    <div class="content-body">
-                      <p>
-                        We uphold the highest standards of honesty,
-                        transparency, and ethical conduct in every aspect
-                        of our work. We believe in doing the right thing, even
-                        when no one is watching, and building trust through openness,
-                        consistency, and accountability.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-single">
-                  <h5 class="header-area">
-                    <button
-                      class="accordion-btn d-flex align-items-center d-flex position-relative w-100"
-                      type="button">
-                      Excellence
-                    </button>
-                  </h5>
-                  <div class="content-area">
-                    <div class="content-body">
-                      <p>
-                        We are committed to delivering exceptional quality in
-                        all our services. We aim to exceed expectations by applying
-                        rigorous analysis, innovative thinking, and a relentless pursuit
-                        of excellence in every project we undertake.
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-single">
-                  <h5 class="header-area">
-                    <button
-                      class="accordion-btn d-flex align-items-center d-flex position-relative w-100"
-                      type="button">
-                      Collaboration
-
-                    </button>
-                  </h5>
-                  <div class="content-area">
-                    <div class="content-body">
-                      <p>
-                        We believe in the power of teamwork,
-                        both within our organization and with our clients. By working
-                        together, sharing diverse perspectives, and fostering open communication,
-                        we create solutions that are holistic, inclusive, and better informed.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <p>
-                  By fostering a culture of continuous learning, integrity, and dedication,
-                  we aim to become a trusted partner in the development of strategies that positively
-                  impact business growth, social change, and scientific advancement.
-
-
-                </p>
-
-              </div>
-            </div>
-          </div>
+  <section class="faq-sectionv mt-60 overflow-hidden space-bottom" id="procedure">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-6 col-md-5">
+        <div class="faq-thumbs">
+          <img src="assets/img/new/valuee.webp" alt="img" />
         </div>
       </div>
+      <div class="col-lg-6 col-md-7">
+        <div class="procedure-container">
+          <div class="section-title mb-40">
+            <span class="sub-title wow fadeInUp p5-clr" style="color:darkGreen;"> Our Core Values</span>
+
+          </div>
+          <div class="step">
+            <div class="icon">
+              <img src="assets/img/new/inter.png" alt="img" />
+            </div>
+            <div class="step-content">
+              <h3>Integrity</h3>
+              <p>
+                We uphold the highest standards of honesty, transparency, and ethical conduct in every aspect of our
+                work. We believe in doing the right thing, even when no one is watching,
+                and building trust through openness, consistency, and accountability.
+              </p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="icon">
+              <img src="assets/img/new/mana.png" alt="img" />
+            </div>
+            <div class="step-content">
+              <h3>Excellence</h3>
+              <p>
+                We are committed to delivering exceptional quality in all our services. We aim to exceed expectations by
+                applying rigorous analysis, innovative thinking,
+                and a relentless pursuit of excellence in every project we undertake.
+              </p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="icon">
+              <img src="assets/img/new/colla.png" alt="img" />
+            </div>
+            <div class="step-content">
+              <h3>Collaboration</h3>
+              <p>
+                We believe in the power of teamwork, both within our organization and with our clients. By working
+                together, sharing diverse perspectives, and fostering open communication,
+                we create solutions that are holistic, inclusive, and better informed.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
     </div>
   </section>
 
   <!-- professional Section Start -->
- 
+
   <!-- Program Section Start -->
-  <section
-    class="program-sectionv1 overflow-hidden space-bottom position-relative">
+  <section class="program-sectionv1 overflow-hidden space-bottom position-relative">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <div class="section-title text-center mb-60">
             <span class="sub-title wow fadeInUp p4-clr">Our Services </span>
             <p>
-              At <b>ZENITH-RW LTD</b>, we provides comprehensive management consultancy services aimed at enhancing organizational performance and achieving strategic goals.
-
-              Our team of experienced consultants offers tailored solutions across several key areas
+              At <b>ZENITH-RW LTD</b>,
+              we offer a range of professional services designed to meet the unique needs of our clients. Whether you're
+              looking for expert guidance, hands-on support, or customized solutions, our team is committed to
+              delivering high-quality, reliable, and results-driven service. Explore what we offer and discover how we
+              can help you achieve your goals with confidence.
             </p>
           </div>
         </div>
       </div>
       <div class="row align-items-center g-4">
-        <div
-          class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
-          data-wow-delay=".3s">
+        <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
           <div class="program-item gra-border">
             <div class="icons gra-border round10 d-center">
               <img src="assets/img/aicon/icc.png" alt="img" />
             </div>
             <div class="content">
-                <h4>
-                  <a href="#">Management Consultancy
-                  </a>
-                </h4>
-                <p>
-                ZENITH-RW LTD provides comprehensive management 
-                consultancy services aimed at enhancing organizational 
-                performance and achieving strategic goals.
-                 Our team of experienced consultants offers 
-                 tailored solutions across several key areas,
-                </p>
-                <a
-                  href="service-details.php#1"
-                  class="readmore d-flex align-items-center gap-2"
-                >
-                  Read More
-                  <span class="arrows mt-1">
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </span>
+              <h4>
+                <a href="#">Management Consultancy
                 </a>
-              </div>
+              </h4>
+              <p>
+                ZENITH-RW LTD provides comprehensive management
+                consultancy services aimed at enhancing organizational
+                performance and achieving strategic goals.
+                Our team of experienced consultants offers
+                tailored solutions across several key areas,
+              </p>
+              <a href="service-details.php#1" class="readmore d-flex align-items-center gap-2">
+                Read More
+                <span class="arrows mt-1">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </a>
+            </div>
           </div>
         </div>
-        <div
-          class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
-          data-wow-delay=".4s">
+        <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
           <div class="program-item gra-border">
             <div class="icons gra-border round10 d-center">
               <img src="assets/img/aicon/plan.png" alt="img" />
             </div>
             <div class="content">
-                <h4>
-                  <a href="#">Research & Development</a>
-                </h4>
-                <p>
-                At ZENITH-RW LTD, we engage in cutting-edge research and experimental development 
+              <h4>
+                <a href="#">Research & Development</a>
+              </h4>
+              <p>
+                At ZENITH-RW LTD, we engage in cutting-edge research and experimental development
                 within the fields of natural sciences and engineering.
-                Collaborating with academic institutions, 
-                 government agencies, and industry partners, 
-                   we aim to advance knowledge and foster innovation.
-                </p>
-                <a
-                  href="service-details.php#4"
-                  class="readmore d-flex align-items-center gap-2"
-                >
-                  Read More
-                  <span class="arrows mt-1">
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
+                Collaborating with academic institutions,
+                government agencies, and industry partners,
+                we aim to advance knowledge and foster innovation.
+              </p>
+              <a href="service-details.php#2" class="readmore d-flex align-items-center gap-2">
+                Read More
+                <span class="arrows mt-1">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </a>
+            </div>
           </div>
         </div>
 
@@ -312,30 +262,27 @@
               <img src="assets/img/aicon/cust.png" alt="img" />
             </div>
             <div class="content">
-                <h4>
-                  <a href="#">Other Professional, Scientific, and Technical Activities</a>
-                </h4>
-                <p>
-                In addition to our core focus areas, ZENITH-RW LTD offers 
-                a range of professional, scientific, and technical activities 
+              <h4>
+                <a href="#">Other Professional, Scientific, and Technical Activities</a>
+              </h4>
+              <p>
+                In addition to our core focus areas, ZENITH-RW LTD offers
+                a range of professional, scientific, and technical activities
                 tailored to diverse client needs.
-                </p>
-                <a
-                  href="service-details.php#5"
-                  class="readmore d-flex align-items-center gap-2"
-                >
-                  Read More
-                  <span class="arrows mt-1">
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
+              </p>
+              <a href="service-details.php#3" class="readmore d-flex align-items-center gap-2">
+                Read More
+                <span class="arrows mt-1">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-    
+
   <!-- Clone Component Section Start -->
   <?php include 'footer.php'; ?>
 
