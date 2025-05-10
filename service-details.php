@@ -7,7 +7,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ZENITH-RW - Consulting & Research</title>
+  <title>ZENITH - Consulting & Research</title>
   <meta name="description"
     content="Horizon Hearts offers ABA therapy, speech therapy, and mental health services for autism and special needs individuals in Rwanda." />
   <meta name="keywords" content="ABA, mental health, speech therapy, autism, special needs, therapy, Rwanda" />

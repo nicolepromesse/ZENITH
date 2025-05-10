@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="mugli" />
-    <title> ZENITH-RW  - Consulting & Research</title>
+    <title> ZENITH  - Consulting & Research</title>
    
     <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <!--<< Bootstrap min.css >>-->

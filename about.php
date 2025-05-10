@@ -62,10 +62,10 @@
             <div class="section-title">
               <span class="sub-title wow fadeInUp p2-clr"> About Us </span>
               <h4 class="m-title mb-3 wow fadeInUp black" data-wow-delay=".3s">
-                ZENITH-RW LTD
+                ZENITH
               </h4>
               <p class="mb-3 pra wow fadeInUp" data-wow-delay=".4s">
-                Since December 2015, ZENITH-RW LTD is dedicated
+                Since December 2015, ZENITH is dedicated
                 to delivering high-quality services in management
                 consultancy, research and development, and various
                 professional and technical activities. Our mission
@@ -149,7 +149,7 @@
                 Our Mission
               </span>
               <h3 class="m-title wow fadeInUp black mb-sm-3 mb-2" data-wow-delay=".3s">
-                At ZENITH-RW,
+                At ZENITH,
               </h3>
               <p class="mb-24 pra wow fadeInUp" data-wow-delay=".4s">
                 our mission is to provide exceptional consulting services that blend deep expertise in management,

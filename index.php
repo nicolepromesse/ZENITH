@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>
-    ZENITH-RW - Consulting & Research
+    ZENITH - Consulting & Research
   </title>
 
   <!--<< Favcion >>-->
@@ -44,33 +44,30 @@
 
   <!-- Hero Section Start -->
   <section class="bannerv2-section position-relative fix" id="scrollUp">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-9">
-          <div class="herov2-content position-relative">
-            <h2 class="mb-lg-5 mb-4 wow fadeInUp" data-wow-delay=".3s">
-              Welcome to ZENITH-RW LTD
-            </h2>
-            <p class="mb-40 wow fadeInUp" data-wow-delay=".5s"
-              style="font-weight: bolder; color: aliceblue; margin-right:25px;">
-              Your partner in management consulting, R&D, and more!
-              Our mission is to leverage our expertise to foster innovation
-              and support our clients in navigating complex challenges in an ever-evolving landscape
-
-            </p>
-
-            <!-- Element -->
-
-          </div>
+  <div class="mobile-overlay"></div> <!-- ONLY used on mobile -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-9">
+        <div class="herov2-content position-relative text-white">
+          <h2 class="mb-lg-5 mb-4 wow fadeInUp" data-wow-delay=".3s">
+            Welcome to ZENITH
+          </h2>
+          <p class="mb-40 wow fadeInUp" data-wow-delay=".5s" style="font-weight: bolder; margin-right:20px">
+            Your partner in management consulting, R&D, and more!
+            Our mission is to leverage our expertise to foster innovation
+            and support our clients in navigating complex challenges in an ever-evolving landscape
+          </p>
         </div>
       </div>
     </div>
-    <!-- Element -->
-    <img src="assets/img/new/home1.png" alt="img" class="banner-shape wow fadeInLeft" data-wow-delay=".3s"
-      style="border-top-left-radius: 250px; opacity: 0.6;" />
+  </div>
+
+  <img src="assets/img/new/home1.png" alt="img" class="banner-shape wow fadeInLeft"
+       data-wow-delay=".3s"
+       style="border-top-left-radius: 250px; opacity: 0.6;" />
+</section>
 
 
-  </section>
 
   <!-- Aboutv1 Section Start -->
   <section class="about-sectionv02 space-top position-relative overflow-hidden">
@@ -194,7 +191,7 @@
           <div class="section-title text-center mb-60">
             <span class="sub-title wow fadeInUp p4-clr">Our Services </span>
             <p>
-              At <b>ZENITH-RW LTD</b>,
+              At <b>ZENITH</b>,
               we offer a range of professional services designed to meet the unique needs of our clients. Whether you're
               looking for expert guidance, hands-on support, or customized solutions, our team is committed to
               delivering high-quality, reliable, and results-driven service. Explore what we offer and discover how we
