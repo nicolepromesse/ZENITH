@@ -6,7 +6,7 @@
         <div class="offcanvas__top mb-4 d-flex justify-content-between align-items-center">
         <div class="offcanvas__logo" style="
   background-image: url('assets/img/new/nobgLogo.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 150px;
@@ -80,7 +80,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
           <div class="logo" style="
   background-image: url('assets/img/new/logo.jpeg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 150px;

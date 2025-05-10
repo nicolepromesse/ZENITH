@@ -6,7 +6,7 @@
                     <div class="single-footer-widget">
                         <div class="widget-heads" style="
   background-image: url('assets/img/new/nobgLogo.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 150px;
