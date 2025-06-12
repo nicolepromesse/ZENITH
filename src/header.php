@@ -128,7 +128,7 @@ if (isset($_SESSION['login']) == 1) {
 <header>
   <div class="container">
     <div class="logo-wrapper">
-      <a href="index.php" class="logo">
+      <a href="dashboard.php" class="logo">
         <img src="img/logo.jpeg" alt="Zenith Logo">
       </a>
     </div>

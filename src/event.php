@@ -1,6 +1,6 @@
 <?php
 include("../connection.php");
-include 'header.php'; 
+include 'header.php';
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ include 'header.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.27/sweetalert2.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.27/sweetalert2.min.css">
 
-    <title>Service Management</title>
+    <title>Event management</title>
 
     <style>
         .table-section {
@@ -96,23 +96,23 @@ include 'header.php';
             margin-right: 8px;
         }
 
-        .services-table-container {
+        .event-table-container {
             overflow-x: auto;
             padding: 0;
         }
 
-        .services-table {
+        .event-table {
             width: 100%;
             border-collapse: collapse;
             font-size: 0.95rem;
         }
 
-        .services-table thead {
+        .event-table thead {
             background: linear-gradient(135deg, #14532d, #166534);
             color: white;
         }
 
-        .services-table th {
+        .event-table th {
             padding: 20px 15px;
             text-align: left;
             font-weight: 600;
@@ -121,23 +121,23 @@ include 'header.php';
             font-size: 0.85rem;
         }
 
-        .services-table th:last-child {
+        .event-table th:last-child {
             text-align: center;
             width: 150px;
         }
 
-        .services-table tbody tr {
+        .event-table tbody tr {
             transition: all 0.3s ease;
             border-bottom: 1px solid #e9ecef;
         }
 
-        .services-table tbody tr:hover {
+        .event-table tbody tr:hover {
             background: linear-gradient(135deg, #f8f9fa, #e9ecef);
             transform: scale(1.01);
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
-        .services-table td {
+        .event-table td {
             padding: 18px 15px;
             vertical-align: middle;
         }
@@ -233,11 +233,11 @@ include 'header.php';
                 width: 98%;
             }
 
-            .services-table {
+            .event-table {
                 font-size: 0.85rem;
             }
 
-            .services-table th, .services-table td {
+            .event-table th, .event-table td {
                 padding: 12px 8px;
             }
 
@@ -263,49 +263,49 @@ include 'header.php';
     <div class="table-main-wrapper">
         <div class="table-container-card">
             <div class="table-header-section">
-                <h1><i class="fas fa-cogs"></i> Service Management</h1>
+                <h1><i class="fas fa-cogs"></i> Event Management</h1>
               
             </div>
 
             <div class="table-add-btn-container">
                 <form method="post" style="margin: 0;">
                     <button type="submit" name="lt" class="table-add-btn">
-                       <a href="add.php" style="color:white">
-                        <i class="fas fa-plus" ></i> Add New Service
+                       <a href="add_event.php" style="color:white">
+                        <i class="fas fa-plus" ></i> Add New Event
                        </a>
                     </button>
                 </form>
             </div>
 
-            <div class="services-table-container">
-                <table class="services-table">
+            <div class="event-table-container">
+                <table class="event-table">
                     <thead>
                         <tr>
                             <th><i class="fas fa-heading"></i> Title</th>
-                            <th><i class="fas fa-align-left"></i> Introduction</th>
+                            <th><i class="fas fa-align-left"></i> Description</th>
                             <th><i class="fas fa-tools"></i> Actions</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php
-                        $select = "SELECT * FROM service ORDER BY Service_id DESC";
+                        $select = "SELECT * FROM Event ORDER BY Event_Id DESC";
                         $Query = mysqli_query($connection, $select);
                         
                         if(mysqli_num_rows($Query) > 0) {
                             while($fecht = mysqli_fetch_array($Query)) {
                                 ?>
                                 <tr>
-                                    <td class="title-cell"><?php echo htmlspecialchars($fecht['Title']); ?></td>
-                                    <td class="summary-cell"><?php echo htmlspecialchars($fecht['INTRODUCTION']); ?></td>
+                                    <td class="title-cell"><?php echo htmlspecialchars($fecht['Event_Title']); ?></td>
+                                    <td class="summary-cell"><?php echo htmlspecialchars($fecht['E_Description']); ?></td>
                                     <td>
                                         <div class="action-buttons">
-                                            <a href="view_service.php?id=<?= htmlspecialchars($fecht['Service_Id']) ?>" class="action-btn view-btn" title="View Details">
+                                            <a href="view_Event.php?id=<?= htmlspecialchars($fecht['Event_Id']) ?>" class="action-btn view-btn" title="View Details">
                                                 <i class="fas fa-eye"></i>
                                             </a>
-                                            <a href="update.php?id=<?= htmlspecialchars($fecht['Service_Id']) ?>" class="action-btn edit-btn" title="Edit Service">
+                                            <a href="update_Event.php?id=<?= htmlspecialchars($fecht['Event_Id']) ?>" class="action-btn edit-btn" title="Edit Event">
                                                 <i class="fas fa-edit"></i>
                                             </a>
-                                            <a href="javascript:void(0)" class="action-btn delete-btn" title="Delete Service" onclick="confirmDelete(<?= htmlspecialchars($fecht['Service_Id']) ?>)">
+                                            <a href="javascript:void(0)" class="action-btn delete-btn" title="Delete EVent" onclick="confirmDelete(<?= htmlspecialchars($fecht['Event_Id']) ?>)">
                                                 <i class="fas fa-trash"></i>
                                             </a>
                                         </div>
@@ -318,7 +318,7 @@ include 'header.php';
                             <tr>
                                 <td colspan="3" class="no-data">
                                     <i class="fas fa-inbox"></i><br>
-                                    No services found. Click "Add New Service" to get started!
+                                    No Event found. Click "Add New Event" to get started!
                                 </td>
                             </tr>
                             <?php
@@ -332,7 +332,7 @@ include 'header.php';
 </div>
 
 <script>
-    function confirmDelete(serviceId) {
+    function confirmDelete(eventId) {
         Swal.fire({
             title: 'Are you sure?',
             text: "You won't be able to revert this action!",
@@ -344,7 +344,7 @@ include 'header.php';
             cancelButtonText: 'Cancel'
         }).then((result) => {
             if (result.isConfirmed) {
-                window.location.href = 'service.php?del=' + serviceId;
+                window.location.href = 'event.php?del=' + eventId;
             }
         });
     }
@@ -353,7 +353,7 @@ include 'header.php';
     Swal.fire({
         icon: 'success',
         title: 'Deleted!',
-        text: 'Service has been deleted successfully.',
+        text: 'event has been deleted successfully.',
         timer: 2000,
         showConfirmButton: false
     });
@@ -363,7 +363,7 @@ include 'header.php';
 <?php
 if(isset($_GET['del'])) {
     $gy = intval($_GET['del']);
-    $rt = "DELETE FROM service WHERE Service_Id = $gy";
+    $rt = "DELETE FROM Event WHERE Event_Id = $gy";
     $mysql = mysqli_query($connection, $rt);
     
     if($mysql) {
@@ -371,11 +371,11 @@ if(isset($_GET['del'])) {
             Swal.fire({
                 icon: 'success',
                 title: 'Deleted!',
-                text: 'Service has been deleted successfully.',
+                text: 'Event has been deleted successfully.',
                 timer: 2000,
                 showConfirmButton: false
             }).then(() => {
-                window.location.href = 'service.php?deleted=success';
+                window.location.href = 'event.php?deleted=success';
             });
         </script>";
     } else {
@@ -383,7 +383,7 @@ if(isset($_GET['del'])) {
             Swal.fire({
                 icon: 'error',
                 title: 'Error!',
-                text: 'Failed to delete the service. Please try again.',
+                text: 'Failed to delete the event. Please try again.',
             });
         </script>";
     }

@@ -5,15 +5,18 @@ include("../connection.php");
 $error_message = "";
 
 if (isset($_POST['login'])) {
-    $username = $_POST['username'];
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $select_query = "SELECT User_name FROM User WHERE User_Email='$email' AND User_Password='$password'";
-    $select_jion = mysqli_query($connection, $select_query);
+    // Secure query with prepared statements to prevent SQL injection (optional but recommended)
+    $stmt = $connection->prepare("SELECT User_name FROM User WHERE User_Email=? AND User_Password=?");
+    $stmt->bind_param("ss", $email, $password);
+    $stmt->execute();
+    $result = $stmt->get_result();
 
-    if (mysqli_num_rows($select_jion) > 0) {
-        $_SESSION['login'] = $username;
+    if ($result && $result->num_rows > 0) {
+        $row = $result->fetch_assoc();
+        $_SESSION['login'] = $row['User_name']; // Store username in session
 
         $target_file = "../src/dashboard.php";
         if (file_exists($target_file)) {
@@ -25,6 +28,8 @@ if (isset($_POST['login'])) {
     } else {
         $error_message = "Invalid credentials. Please check your email and password.";
     }
+
+    $stmt->close();
 }
 ?>
 <!DOCTYPE html>
@@ -32,8 +37,9 @@ if (isset($_POST['login'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Account</title>
+    <title>User Login</title>
     <style>
+      
         * {
             margin: 0;
             padding: 0;
@@ -213,6 +219,7 @@ if (isset($_POST['login'])) {
                 max-width: 100px;
             }
         }
+    
     </style>
 </head>
 <body>
@@ -223,20 +230,12 @@ if (isset($_POST['login'])) {
             </div>
             <div class="subtitle">Login to Access Admin Dashboard</div>
         </div>
+
+        <?php if (!empty($error_message)): ?>
+            <div class="error-message"><?php echo htmlspecialchars($error_message); ?></div>
+        <?php endif; ?>
+
         <form action="" method="post">
-            <div class="form-group">
-                <div class="input-container">
-                    <input 
-                        type="text" 
-                        name="username" 
-                        id="username"
-                        class="form-input" 
-                        placeholder="your user name"
-                        value="<?php echo isset($_POST['username']) ? htmlspecialchars($_POST['username']) : ''; ?>"
-                        required
-                    >
-                </div>
-            </div>
             <div class="form-group">
                 <div class="input-container">
                     <span class="input-icon">✉</span>
@@ -266,11 +265,7 @@ if (isset($_POST['login'])) {
             </div>
             <button type="submit" name="login" class="login-btn">Login</button>
         </form>
-
-        
-        <!-- <a href="create.php" class="create-account-btn">Create Account</a> -->
-
-       
+    </div>
 
     <script>
         function togglePassword() {
