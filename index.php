@@ -1,3 +1,18 @@
+<?php
+include("db.php");
+
+$services = [];
+$query = "SELECT Service_Id, title, introduction FROM service";
+$result = $connection->query($query);
+
+if ($result) {
+  while ($row = $result->fetch_assoc()) {
+    $services[] = $row;
+  }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <!--<< Header Area >>-->
@@ -33,7 +48,7 @@
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <style>
- 
+
 </style>
 
 <body>
@@ -44,28 +59,27 @@
 
   <!-- Hero Section Start -->
   <section class="bannerv2-section position-relative fix" id="scrollUp">
-  <div class="mobile-overlay"></div> <!-- ONLY used on mobile -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-9">
-        <div class="herov2-content position-relative text-white">
-          <h2 class="mb-lg-5 mb-4 wow fadeInUp" data-wow-delay=".3s">
-            Welcome to ZENITH
-          </h2>
-          <p class="mb-40 wow fadeInUp" data-wow-delay=".5s" style="font-weight: bolder; margin-right:20px">
-            Your partner in management consulting, R&D, and more!
-            Our mission is to leverage our expertise to foster innovation
-            and support our clients in navigating complex challenges in an ever-evolving landscape
-          </p>
+    <div class="mobile-overlay"></div> <!-- ONLY used on mobile -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-9">
+          <div class="herov2-content position-relative text-white">
+            <h2 class="mb-lg-5 mb-4 wow fadeInUp" data-wow-delay=".3s">
+              Welcome to ZENITH
+            </h2>
+            <p class="mb-40 wow fadeInUp" data-wow-delay=".5s" style="font-weight: bolder; margin-right:20px">
+              Your partner in management consulting, R&D, and more!
+              Our mission is to leverage our expertise to foster innovation
+              and support our clients in navigating complex challenges in an ever-evolving landscape
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <img src="assets/img/new/home1.png" alt="img" class="banner-shape wow fadeInLeft"
-       data-wow-delay=".3s"
-       style="border-top-left-radius: 250px; opacity: 0.6;" />
-</section>
+    <img src="assets/img/new/home1.png" alt="img" class="banner-shape wow fadeInLeft" data-wow-delay=".3s"
+      style="border-top-left-radius: 250px; opacity: 0.6;" />
+  </section>
 
 
 
@@ -201,82 +215,36 @@
         </div>
       </div>
       <div class="row align-items-center g-4">
-        <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-          <div class="program-item gra-border">
-            <div class="icons gra-border round10 d-center">
-              <img src="assets/img/aicon/icc.png" alt="img" />
-            </div>
-            <div class="content">
-              <h4>
-                <a href="#">Management Consultancy
+        <?php foreach ($services as $index => $service): ?>
+          <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".<?php echo ($index + 3); ?>s">
+            <div class="program-item gra-border">
+              <div class="icons gra-border round10 d-center">
+                <img src="assets/img/aicon/icc.png" alt="icon" />
+              </div>
+              <div class="content">
+                <h4>
+                  <a href="service-details.php#<?php echo $service['Service_Id']; ?>">
+                    <?php echo htmlspecialchars($service['title']); ?>
+                  </a>
+                </h4>
+                <p>
+                  <?php echo htmlspecialchars($service['introduction']); ?>
+                </p>
+                <a href="service-details.php?id=<?php echo $service['Service_Id']; ?>">
+                  <span class="arrows mt-1">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                  Read More
                 </a>
-              </h4>
-              <p>
-                ZENITH-RW LTD provides comprehensive management
-                consultancy services aimed at enhancing organizational
-                performance and achieving strategic goals.
-                Our team of experienced consultants offers
-                tailored solutions across several key areas,
-              </p>
-              <a href="service-details.php#1" class="readmore d-flex align-items-center gap-2">
-                Read More
-                <span class="arrows mt-1">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
-          <div class="program-item gra-border">
-            <div class="icons gra-border round10 d-center">
-              <img src="assets/img/aicon/plan.png" alt="img" />
-            </div>
-            <div class="content">
-              <h4>
-                <a href="#">Research & Development</a>
-              </h4>
-              <p>
-                At ZENITH-RW LTD, we engage in cutting-edge research and experimental development
-                within the fields of natural sciences and engineering.
-                Collaborating with academic institutions,
-                government agencies, and industry partners,
-                we aim to advance knowledge and foster innovation.
-              </p>
-              <a href="service-details.php#2" class="readmore d-flex align-items-center gap-2">
-                Read More
-                <span class="arrows mt-1">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
 
-        <div class="" data-wow-delay=".6s">
-          <div class="program-item gra-border">
-            <div class="icons gra-border round10 d-center">
-              <img src="assets/img/aicon/cust.png" alt="img" />
-            </div>
-            <div class="content">
-              <h4>
-                <a href="#">Other Professional, Scientific, and Technical Activities</a>
-              </h4>
-              <p>
-                In addition to our core focus areas, ZENITH-RW LTD offers
-                a range of professional, scientific, and technical activities
-                tailored to diverse client needs.
-              </p>
-              <a href="service-details.php#3" class="readmore d-flex align-items-center gap-2">
-                Read More
-                <span class="arrows mt-1">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </span>
-              </a>
+
+
+              </div>
             </div>
           </div>
-        </div>
+        <?php endforeach; ?>
       </div>
+
     </div>
   </section>
 

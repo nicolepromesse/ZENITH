@@ -21,7 +21,15 @@
                             <h4 style="color: black">ZENITH</h4>
                             Your partner in management consulting, R&D, and more!
                             </p>
+                            <div class="social-wrapper d-flex align-items-center">
+                                <a target="_blank" href="https://web.facebook.com/ZENITHRW"><i
+                                        class="white fab fa-facebook-f"></i></a>
 
+                                <a target="_blank" href="https://www.instagram.com/zenith_rw/"><i
+                                        class="white fa-brands fa-instagram"></i></a>
+                                        <a target="_blank" href="https://x.com/ZenithRw25"><i
+                                        class="white fa-brands fa-x"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -78,6 +86,7 @@
         </div>
     </div>
     <div class="footer-bottom">
+      
         <div class="container">
             <div
                 class="footer-wrapper d-md-flex d-grid gap-md-0 gap-2 align-items-center justify-content-md-between justify-content-center text-md-start text-center">
